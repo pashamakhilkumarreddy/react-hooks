@@ -12,10 +12,23 @@ body {
   min-height: 100vh;
 }
 
-footer {
+.header {
+  border: 1px solid #ddd;
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.2);
+}
+
+.footer {
   position: absolute;
   padding: 1.5rem !important;
   bottom: 0;
   width: 100vw;
   border-top: 1px solid #d3d3d3;
+}
+
+.mt-10 {
+  margin-top: 5rem;
+}
+
+.post.card:last-child {
+  margin-bottom: 8rem;
 }

@@ -9,7 +9,9 @@ function App() {
     <>
       <Header />
         <main className="container">
-          <Routes />
+          <div className="columns is-mobile is-centered is-vcentered is-multiline mt-10">
+              <Routes />
+          </div>
         </main>
       <Footer />
     </>
