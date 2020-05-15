@@ -23,12 +23,31 @@ body {
   bottom: 0;
   width: 100vw;
   border-top: 1px solid #d3d3d3;
+  margin-top: 6rem;
+}
+
+.mt-6 {
+  margin-top: 3rem;
 }
 
 .mt-10 {
   margin-top: 5rem;
 }
 
-.post.card:last-child {
-  margin-bottom: 8rem;
+.add-post-form,
+.edit-post-form {
+  padding: 3rem 2rem;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+  border: 2px solid #ddd;
+  border-radius: 0.6rem;
+}
+
+.edit-post-form {
+  background: #fff;
+  margin: 1rem;
+  box-shadow: none;
+}
+
+.modal-background {
+  background: rgba(0, 0, 0, .9);
 }

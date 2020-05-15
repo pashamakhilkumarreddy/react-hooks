@@ -8,10 +8,8 @@ function App() {
   return (
     <>
       <Header />
-        <main className="container">
-          <div className="columns is-mobile is-centered is-vcentered is-multiline mt-10">
-              <Routes />
-          </div>
+        <main className="container">          
+          <Routes />
         </main>
       <Footer />
     </>

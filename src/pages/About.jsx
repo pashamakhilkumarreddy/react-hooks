@@ -8,8 +8,11 @@ const About = () => {
       <Helmet>
         <title>About</title>
       </Helmet>
-      <h1>About</h1>
-
+      <div className="columns is-mobile is-centered is-vcentered is-multiline mt-6">
+        <div className="column is-10">
+          <h1 className="title has-text-centered">About</h1>
+        </div>
+      </div>
     </>
   )
 }

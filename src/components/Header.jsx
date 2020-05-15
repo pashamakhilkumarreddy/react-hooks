@@ -11,7 +11,7 @@ const Header = () => {
     <header className="header">
       <nav className="navbar" role="navigation" aria-label="main navigation">
         <div className="navbar-brand">
-          <a className="navbar-item" href="https://bulma.io">
+          <a className="navbar-item" href="/">
             <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28" alt="Logo" />
           </a>
           <a role="button" className={'navbar-burger burger ' + (navbarDisplay ? 'is-active': '')} aria-label="menu" aria-expanded="false"
@@ -23,6 +23,9 @@ const Header = () => {
         </div>
         <div id="main-navbar" className={'navbar-menu ' + (navbarDisplay ? 'is-active': '')}>
           <div className="navbar-end">
+            <Link to="/add-post" className="navbar-item">
+              Add Post
+            </Link>
             <Link to="/posts" className="navbar-item">
               Posts
             </Link>
